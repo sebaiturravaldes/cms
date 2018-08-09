@@ -1,6 +1,6 @@
 <?php
 
-namespace Siturra\Cms;
+namespace Cms;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -11,6 +11,11 @@
   "minimum-stability": "dev",
   "require": {},
   "extra": {
+    "autoload": {
+      "psr-4": {
+        "Cms\\": "src/"
+      }
+    },
     "laravel": {
       "providers": [
         "Siturra\\Cms\\CmsServiceProvider"
