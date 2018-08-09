@@ -1,0 +1,20 @@
+{
+  "name": "siturra/cms",
+  "description": "Cms Package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "siturra",
+      "email": "iturra.sebastian@hotmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Siturra\\Cms\\CmsServiceProvider"
+      ]
+    }
+  }
+}
