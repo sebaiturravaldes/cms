@@ -10,19 +10,16 @@
   ],
   "minimum-stability": "dev",
   "require": {},
+  "autoload": {
+    "psr-4": {
+      "Cms\\": "src/"
+    }
+  },
   "extra": {
-    "autoload": {
-      "psr-4": {
-        "Cms\\": "src/"
-      }
-    },
     "laravel": {
       "providers": [
-        "Siturra\\Cms\\CmsServiceProvider"
-      ],
-      "aliases": {
-        "Cms": "Siturra\\Cms\\Facade"
-      }
+        "Cms\\CmsServiceProvider"
+      ]
     }
   }
 }
